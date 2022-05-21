@@ -1,4 +1,4 @@
-# atividades_Senac_Frontend
+# Minhas atividades do curso Favoritas ⭐
 Minhas atividades desenvolvidas durante o curso de Front end no Senac Rio Preto
 
 ## Atividade 4
