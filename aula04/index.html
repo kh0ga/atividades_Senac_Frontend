@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paleta de Cores</title>
+
+    <style>
+        #container{
+            width: 1025px;
+            margin: 0 auto;
+            position: relative;   
+            
+        }
+
+        #imagem{
+            width:760px;
+            height: 560px;            
+            background: url("arara.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            position: absolute;
+        }
+
+        .paleta{
+            width: 263px;
+            height: 112px;
+            position: absolute;
+            left: 760px;
+            display: flex;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+            color: white;
+            justify-content: center;
+            align-items: center;
+           
+        }
+
+        #cor1{
+            background-color: #0367A6;
+            top: 0;
+        }
+
+        #cor2{
+            background-color: #04B2D9 ;
+            top: 112px;
+        }
+
+        #cor3{
+            background-color: #202416;
+            top: 224px;
+        }
+
+        #cor4{
+            background-color: #FAC900;
+            top: 336px;
+        }
+
+        #cor5{
+            background-color: #D97904;
+            top: 448px;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div id="container">
+        <div id="imagem"></div>
+        <div id="cor1" class="paleta">#0367A6</div>
+        <div id="cor2" class="paleta">#04B2D9</div>
+        <div id="cor3" class="paleta">#202416</div>
+        <div id="cor4" class="paleta">#FAC900</div>
+        <div id="cor5" class="paleta">#D97904</div>
+    </div>
+</body>
+</html>
